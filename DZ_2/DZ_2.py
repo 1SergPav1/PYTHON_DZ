@@ -32,15 +32,6 @@
 
 # num = int(input('Введите число: '))
 # k = 0
-# res = []
-# while True:
-#     i = 2 ** k
-#     if i < num:
-#         res.append(i)
-#         k += 1
-#     else:
-#         break
-# print(res)
-
-
-
+# while 2 ** k < num:
+#     print(2 ** k)
+#     k += 1
