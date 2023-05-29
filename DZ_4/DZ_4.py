@@ -18,3 +18,18 @@ print(result)
 # перед некоторым кустом, собирает ягоды с этого куста и с двух соседних с ним. Напишите программу для нахождения
 # максимального числа ягод, которое может собрать за один заход собирающий модуль, находясь перед некоторым кустом
 # заданной во входном файле грядки.
+
+# result = []
+#
+# n = int(input('Введите число кустов: '))
+# nums = [int(input(f'Введите число ягод на {i} кусте: ')) for i in range(n)]
+# print(nums)
+# for i in range(len(nums)):
+#     if i == 0:
+#         result.append(sum((nums[-1], nums[i], nums[i + 1])))
+#     elif i == len(nums) - 1:
+#         result.append(sum((nums[i - 1], nums[i], nums[0])))
+#     else:
+#         result.append(sum((nums[i - 1], nums[i], nums[i + 1])))
+# print(max(result))
+
