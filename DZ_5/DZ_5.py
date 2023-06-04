@@ -27,3 +27,4 @@ print(expo(int(input('введи А: ')), int(input('введи B: '))))
 #
 #
 # print(summa(int(input('введи А: ')), int(input('введи B: '))))
+
